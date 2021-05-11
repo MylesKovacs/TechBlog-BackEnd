@@ -1,0 +1,33 @@
+
+ {{#if loggedIn}}
+<div class="container lg-12">
+       <div id="dataHolder" data-id="{{id}}"></div>         
+
+    <div class="card">
+        <div class="card-header bg-dark">
+            <h5>Edit Post #{{post.id}}</h5>
+        </div>
+        <div class="card-body">
+            <form>
+                <div class="form-group">
+                    <label for="title">Title</label>
+                    <textarea name="post-title" class="form-control" id="title" style="width:90%">{{post.title}}</textarea>
+                </div>
+                <div class="form-group">
+                    <label for="article">Article</label>
+                    <textarea name="post-article" class="form-control" id="article" style="width:90%">{{post.article}}</textarea>
+                </div>
+            </form>
+            <div class="buttons">
+                <button class="btn btn-secondary updatePostBtn" type="submit" update-id="{{id}}">Update Post</button>
+                <button class="btn btn-secondary deletePostBtn" delete-id="{{id}}">Delete Post</button>
+            </div>
+        </div>
+    </div>
+    {{/if}}
+
+    <script src="/javascript/edit-post.js"></script>
+
+
+
+
