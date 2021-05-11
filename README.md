@@ -1,5 +1,5 @@
 # TechBlog
-![GitHub] (https://github.com/MylesKovacs/) 
+![GitHub] (https://github.com/MylesKovacs/TechBlog-BackEnd) 
 
 #### Table of Contents  
 [Description](#description)<br>
@@ -7,13 +7,14 @@
 [License & Copyrights](#license--copyrights)<br>
 
 ## Description
-* A portfolio highlighting my works and abilities
-https://react-portfolio-flame-ten.vercel.app/
+* The backend structure for a tech blog to share opinions and thoughts on tech
+
 
 ## Built with These Tools
-* JavaScript, HTML,
-* [Node.js](https://nodejs.org/en/)
-* React
+* JavaScript
+* Handlebars
+* MYSQL
+* Express
 ## Contributions & Contact Info
 * Myles Kovacs - [GitHub](https://github.com/MylesKovacs)
 
